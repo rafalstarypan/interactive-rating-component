@@ -1,0 +1,108 @@
+* {
+  font-family: "https://fonts.google.com/specimen/Overpass";
+  color: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+}
+
+.wrapper {
+  margin: 8rem auto;
+}
+
+.card {
+  margin: 0 auto;
+  width: 16%;
+  height: 35%;
+  padding: 1.2rem;
+  border-radius: 30px;
+  background-color: hsl(213, 19%, 18%);
+}
+
+.imageCircle {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: url("images/icon-star.svg");
+  background-color: hsl(216, 12%, 8%);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.commonText {
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+}
+
+.buttonWrapper {
+  padding: 5% 0;
+}
+
+.inputButton {
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  border-radius: 50%;
+  font-size: 18px;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(217, 12%, 63%);
+}
+
+.inputButton:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.active {
+  background-color: hsl(216, 12%, 54%) !important;
+  color: hsl(0, 0%, 100%) !important;
+}
+
+.submitWrapper {
+  padding: 5% 0;
+}
+
+.submitButton {
+  width: 100%;
+  height: 40px;
+  background-color: hsl(25, 97%, 53%);
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-align: center;
+  border-radius: 40px;
+}
+
+.submitButton:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.imgWrapper {
+  text-align: center;
+}
+
+.imgWrapper img {
+  margin-bottom: 10%;
+}
+
+.answerWrapper {
+  background-color: hsl(216, 12%, 8%);
+  width: 60%;
+  padding: 3%;
+  color: hsl(25, 97%, 53%);
+  border-radius: 40px;
+  text-align: center;
+}
+
+.thankHeader {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.thankParagraph {
+  text-align: center;
+}
